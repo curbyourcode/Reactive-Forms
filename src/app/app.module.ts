@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import {
 MatToolbarModule,
@@ -10,7 +11,9 @@ MatListModule,
 MatCardModule,
 MatFormFieldModule,
 MatSelectModule,
-MatAutocompleteModule
+MatAutocompleteModule,
+MatInputModule,
+MatTableModule
 } from '@angular/material';
 
 // components
@@ -18,8 +21,7 @@ import { AppComponent } from './app.component';
 import { NewEntryComponent } from './new-entry/new-entry.component';
 
 // forms
-import { ReactiveFormsModule } from '@angular/forms';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -29,6 +31,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     ReactiveFormsModule,
+    FormsModule,
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
@@ -38,7 +41,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatCardModule,
     MatFormFieldModule,
     MatSelectModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatInputModule,
+    MatTableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
