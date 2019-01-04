@@ -8,8 +8,8 @@ import { Type } from '../interfaces/Type';
 })
 export class NewEntryComponent {
   types: Type[] = [
-    {value: true, display: 'Expense'},
-    {value: false, display: 'income'},
+    { value: true, display: 'Expense' },
+    { value: false, display: 'income' },
   ];
 
   constructor() { }
