@@ -7,7 +7,10 @@ MatButtonModule,
 MatSidenavModule,
 MatIconModule,
 MatListModule,
-MatCardModule
+MatCardModule,
+MatFormFieldModule,
+MatSelectModule,
+MatAutocompleteModule
 } from '@angular/material';
 
 // components
@@ -32,7 +35,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatFormFieldModule,
+    MatSelectModule,
+    MatAutocompleteModule
   ],
   providers: [],
   bootstrap: [AppComponent]
