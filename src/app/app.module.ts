@@ -13,7 +13,9 @@ MatFormFieldModule,
 MatSelectModule,
 MatAutocompleteModule,
 MatInputModule,
-MatTableModule
+MatTableModule,
+MatChipsModule,
+MatMenuModule
 } from '@angular/material';
 
 // components
@@ -43,7 +45,9 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms';
     MatSelectModule,
     MatAutocompleteModule,
     MatInputModule,
-    MatTableModule
+    MatTableModule,
+    MatChipsModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
